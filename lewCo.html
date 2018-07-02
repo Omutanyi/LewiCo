@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>lewCo Profile</title>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+<link rel="stylesheet" type="text/css" href="lewCo.css">
+<style type="text/css">
+
+body {
+	background-color: #FEFCFC;
+}
+	
+.restDiv ul {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+
+.restDiv ul li {
+    float: left;
+    padding-bottom: 21px;
+    width: 33%;
+}
+
+.form-control {
+    background-color: white;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#InputForm h3 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.itemForm {
+    border-style: inherit;
+    box-shadow: 2px 8px 16px 8px rgba(0.2,0.2,0.2,0.2);
+    margin-left: 20%;
+    margin-top: 70px;
+    width: 200px;
+    height: 260px;
+    cursor: pointer;
+    border-top: 1px
+    border-bottom:1px;
+    background-color: grey;;
+}
+
+.itemForm:hover {
+    width: 230px;
+    height: 300px;
+}
+.form-inline {
+	display: none;
+}
+
+@media (max-width: 767px){
+	.navBar {
+		width: 100%;
+		height: 60px;
+	}
+	.navBar a {
+		font-size: 4px;
+	}
+	
+	.leftDiv {
+		display: block;
+	}
+	.navBar h3 {
+		float: left;
+        font-size: 16px;
+        color: black;
+        background-color: white;
+        text-align: center;
+        padding: 4px 6px;
+        text-decoration: none;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 14px;
+        margin-left: 5px;
+	}
+	#menu {
+		display: none;
+	}
+	.restDiv h3 {
+		font-size: 16px;
+	}
+}
+
+</style>
+
+<script type="text/javascript">
+	function seacherShow() {
+		document.getElementById('formInline').style.display='show';
+	}
+</script>
+
+
+</head>
+<body>
+	<div class="bodyContainer">
+		<div class="navBar">
+			<h3>C<small>OMPANY</small>N<small>AME</small></h3>
+			<ul id="menu">
+				<li id="menuItem">
+					<a href="#">NEWS</a>
+				</li>
+				<li id="menuItem">
+					<a href="#">ABOUT</a>
+				</li>
+				<li  id="menuItem">
+					<i class="material-icons"> search</i>
+				</li>
+				<li  id="menuItem">
+							<form class="form-inline" id="formInline" onclick="seacherShow()">
+    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+  </form>
+
+				</li>
+				<li  id="menuItem">
+					<i class="material-icons"> account_circle</i>
+				</li>
+			</ul>
+		</div>
+
+		<div class="container">
+			<div class="leftDiv">
+				Welcome
+			</div>
+			<div class="restDiv">
+				<h3>Please find your employee of choice from our variety of categories</h3>
+				<ul>
+        <li>
+          <div class="img "><a href="#"><img src="17.jpeg" alt=""></a></div>
+          <div class="info">
+            <p>Househelp</p>
+            <a href="#" class="title">Explore</a>
+          </div>
+        </li>
+         <li>
+          <div class="img"><a href="#"><img src="17.jpeg" alt=""></a></div>
+          <div class="info">
+            <p>Househelp</p>
+            <a href="#" class="title">Explore</a>
+          </div>
+        </li>
+         <li>
+          <div class="img"><a href="#"><img src="17.jpeg" alt=""></a></div>
+          <div class="info">
+            <p>Househelp</p>
+            <a href="#" class="title">Explore</a>
+          </div>
+        </li>
+         <li>
+          <div class="img"><a href="#"><img src="17.jpeg" alt=""></a></div>
+          <div class="info">
+            <p>Househelp</p>
+            <a href="#" class="title">Explore</a>
+          </div>
+        </li>
+         <li>
+          <div class="img"><a href="#"><img src="17.jpeg" alt=""></a></div>
+          <div class="info">
+            <p>Househelp</p>
+            <a href="#" class="title">Explore</a>
+          </div>
+        </li>
+         <li>
+          <div class="img"><a href="#"><img src="17.jpeg" alt=""></a></div>
+          <div class="info">
+            <p>Househelp</p>
+            <a href="#" class="title">Explore</a>
+          </div>
+        </li>
+                <li>
+          <div class="img"><a href="#"><img src="17.jpeg" alt=""></a></div>
+          <div class="info">
+            <p>Househelp</p>
+            <a href="#" class="title">Explore</a>
+          </div>
+        </li>
+                <li>
+          <div class="img"><a href="#"><img src="17.jpeg" alt=""></a></div>
+          <div class="info">
+            <p>Househelp</p>
+            <a href="#" class="title">Explore</a>
+          </div>
+        </li>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
